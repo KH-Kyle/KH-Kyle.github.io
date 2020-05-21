@@ -3,6 +3,22 @@ layout: default
 title: Home
 ---
 
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146906479-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-146906479-1');
+  </script>
+  
+  <title>Guohao (Kyle) Zhang</title>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -18,6 +34,276 @@ title: Home
   </div>
   {% endfor %}
 </div>
+<body>
+
+  <div id="content">
+  
+    <div id="header">
+      <h1>Guohao (Kyle) Zhang</h1>
+    </div>
+  
+    <div id="pic">
+      <img src="personal.jpg" width="300" />
+    </div>
+  
+    <div id="info">
+      <p>guohaz&#64cs.washington.edu</p>
+      <a href="https://www.linkedin.com/in/www.linkedin.com/in/kylekh"><i class="fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+  </div>
+  
+    <div id="section">
+    <p>I am a senior student studying Computer Science at the <a href="http://www.washington.edu/">University of Washington</a>. I am currently working on trajectory analysis of <a href="https://personalrobotics.cs.washington.edu/blog/food-manipulation/">Food Manipulation project</a> with <a href="https://sites.google.com/site/tapomayukh">Tapomayukh Bhattacharjee</a>. </p>
+  
+    <p>My research interests are Robot Preception and Motion Planning. I believe robots can be more intelligent and even gain human cognition with the power of artificial Intelligence.</p>
+  
+    </div>
+  
+    <!-- <div id="footer">
+      <hr/>
+      <h2> Bio </h2>
+      <hr/>
+    <ul>
+      <p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; I grew up in <a href="https://en.wikipedia.org/wiki/Beijing">Beijing</a> China. 
+      <p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; In Spring 2019, I obtained my Bachelor's Degree in Computer Science from University of Washignton with a minor in Mathematics after spending two and a half year in undergrad.</p> 
+      <p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; I started working in the <a href="https://rse-lab.cs.washington.edu/">RSE Lab</a> from 2017 to 2019, where I researched on multi-tasking vision model for robotics perception, with <a href="http://homes.cs.washington.edu/~tws10">Tanner Schmidt</a>, under the supervision of <a href="http://homes.cs.washington.edu/~fox">Dieter Fox</a>. In the Summer of 2019, I worked at Facebook as a Software Engineering intern, where I prototyped distributed systems for large scale Machine Learning services. In the Summer of 2018, I joined the <a href="http://sampl.cs.washington.edu/">SAMPL group</a>, where I was working on Relay, part of the <a href="https://tvm.ai/">TVM project</a>, with <a href="https://jroesch.github.io/">Jared Roesch</a> and <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>. In the Summer of 2015, I attended the <a href="https://www.cee.org/research-science-initiative-tsinghua-university">RSI Tsinghua program</a>, where I worked with <a href="http://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a> on Dirichlet Process Mixture Model, a topic in Bayesian Nonparametrics. Here's my <a href="Jifan RSI paper.pdf">project report</a>. In the Summer of 2014, I worked with Dr. Fei Tian at Microsoft Research Asia. I extended the <a href="http://www.aclweb.org/anthology/C14-1016">Multi-Prototype Word Embedding</a> model with joining in Part of Speech Tagging. Check out the <a href="http://www.msra.cn/zh-cn/news/outreach-articles/jifan-zhang-20150626">press article</a> if you understand Chinese Characters.</p>
+    </ul>
+    </div> -->
+    <!-- <div id="footer">
+  
+      <hr/>
+      <h2> Teaching </h2>
+      <hr/>
+  
+    <ul>
+  
+        <li class="no-bullet">
+        <div class="publink">
+          <a class="pub" href="https://courses.cs.washington.edu/courses/cse446/19sp/">[course website]</a>
+        </div>
+        <div class="pubtext">
+          <b>TA CSE 446: Machine Learning (Spring 2019)</b>
+        </div>
+              </li>
+    </ul> -->
+  
+  
+    <div id="footer">
+      <hr/>
+      <h2> Selected Coursework </h2>
+      <hr/>
+  
+      <ul>
+  
+        <li class="no-bullet">
+        <div class="publink">
+          <a class="pub" href="https://courses.cs.washington.edu/courses/cse546/17au/">[course website]</a>
+        </div>
+        <div class="pubtext">
+          <b>CSE 546: Graduate Machine Learning (Autumn 2017)</b> <br/>
+          Worked on both discriminative and generative deep learning models with limited amount of biological images<br/>
+          <i>We are anticipating to submit our paper for review soon</i><br/>
+          <b>- Best Project Award in class</b>
+        </div>
+              </li>
+  
+        <li class="no-bullet">
+        <div class="publinktight">
+          <a class="pub" href="https://courses.cs.washington.edu/courses/cse517/18sp/">[course website]</a>
+        </div>
+        <div class="pubtexttight">
+          <b>CSE 517: Graduate Natrual Language Processing (Spring 2018)</b>
+        </div>
+              </li>
+  
+          <li class="no-bullet">
+        <div class="publink">
+          <a class="pub" href="https://homes.cs.washington.edu/~ztatlock/599z-17sp/">[course website]</a>
+        </div>
+        <div class="pubtext">
+          <b>CSE 599Z: Accurate Computing (Advanced Grad, Spring 2017)</b> <br/>
+          Made a mini motion planner of 3D printing extrusion path<br/>
+          Employed <a href="https://arxiv.org/abs/1603.00748">Normalized Advantage Function</a> model (Deep Reinforcement Learning)
+        </div>
+              </li>
+  
+        <li class="no-bullet">
+        <div class="publink">
+          <a class="pub" href="https://courses.cs.washington.edu/courses/cse505/17au/">[course website]</a>
+        </div>
+        <div class="pubtext">
+          <b>CSE 505: Graduate Programming Languages (Autumn 2017)</b> <br/>
+          Proved type soundness of an extended <a href="https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus">STLC</a> with references by the verifiction language <a href="https://github.com/leanprover"> Lean </a> <br/>
+        </div>
+              </li>
+  
+        <li class="no-bullet">
+        <div class="publink">
+          <a class="pub" href="https://courses.cs.washington.edu/courses/cse473/17au/">[course website]</a>
+        </div>
+        <div class="pubtext">
+          <b>CSE 473: Introduction to Artificial Intelligence (Autumn 2017)</b> <br/>
+          The <a href="http://ai.berkeley.edu/project_overview.html">Pacman Project</a> was really fun. You should try it out if haven't already
+        </div>
+              </li>
+  
+        <li class="no-bullet">
+        <div class="publinktight">
+          <a class="pub" href="https://courses.cs.washington.edu/courses/cse421/17au/">[course website]</a>
+        </div>
+        <div class="pubtexttight">
+          <b>CSE 421: Introduction to Algorithms (Autumn 2017)</b>
+        </div>
+              </li>
+  
+        <li class="no-bullet">
+        <div class="pubtexttight">
+          <b>LING 461/462: Syntax I/II (Summer 2017)</b>
+        </div>
+              </li>
+  
+      </ul>
+      
+  
+    </div>
+  
+    <div id="footer"; style="color:#888;">
+      <hr/>
+    Last updated: September 1, 2019
+    </div>
+  
+  </div>
+    
+  </div>
+  
+  <div>
+    <hr/>
+        <h2> Travel </h2>
+    <hr/>
+    <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+    <div id="mapdiv" style="width: 1000px; height: 450px;"></div>
+    <div style="width: 1000px; font-size: 70%; padding: 5px 0; text-align: center; background-color: #535364; margin-top: 1px; color: #B4B4B7;"><a href="https://www.amcharts.com/visited_countries/" style="color: #B4B4B7;">Create your own visited countries map</a> or check out the <a href="https://www.amcharts.com/" style="color: #B4B4B7;">JavaScript Charts</a>.</div>
+    <script type="text/javascript">
+    var map = AmCharts.makeChart("mapdiv",{
+    type: "map",
+    theme: "dark",
+    projection: "mercator",
+    panEventsEnabled : true,
+    backgroundColor : "#535364",
+    backgroundAlpha : 1,
+    zoomControl: {
+    zoomControlEnabled : true
+    },
+    dataProvider : {
+    map : "worldHigh",
+    getAreasFromMap : true,
+    areas :
+    [
+      {
+        "id": "AT",
+        "showAsSelected": true
+      },
+      {
+        "id": "BE",
+        "showAsSelected": true
+      },
+      {
+        "id": "CZ",
+        "showAsSelected": true
+      },
+      {
+        "id": "FR",
+        "showAsSelected": true
+      },
+      {
+        "id": "DE",
+        "showAsSelected": true
+      },
+      {
+        "id": "HU",
+        "showAsSelected": true
+      },
+      {
+        "id": "IS",
+        "showAsSelected": true
+      },
+      {
+        "id": "IT",
+        "showAsSelected": true
+      },
+      {
+        "id": "LI",
+        "showAsSelected": true
+      },
+      {
+        "id": "NL",
+        "showAsSelected": true
+      },
+      {
+        "id": "RS",
+        "showAsSelected": true
+      },
+      {
+        "id": "CH",
+        "showAsSelected": true
+      },
+      {
+        "id": "GB",
+        "showAsSelected": true
+      },
+      {
+        "id": "BS",
+        "showAsSelected": true
+      },
+      {
+        "id": "CA",
+        "showAsSelected": true
+      },
+      {
+        "id": "CR",
+        "showAsSelected": true
+      },
+      {
+        "id": "MX",
+        "showAsSelected": true
+      },
+      {
+        "id": "US",
+        "showAsSelected": true
+      },
+      {
+        "id": "SO",
+        "showAsSelected": true
+      },
+      {
+        "id": "CN",
+        "showAsSelected": true
+      },
+      {
+        "id": "HK",
+        "showAsSelected": true
+      },
+      {
+        "id": "SG",
+        "showAsSelected": true
+      }
+    ]
+    },
+    areasSettings : {
+    autoZoom : true,
+    color : "#B4B4B7",
+    colorSolid : "#84ADE9",
+    selectedColor : "#84ADE9",
+    outlineColor : "#666666",
+    rollOverColor : "#9EC2F7",
+    rollOverOutlineColor : "#000000"
+    }
+    });
+    </script>
+  </div>
+  
+  </body>
 
 <div class="pagination">
   {% if paginator.next_page %}
